@@ -129,7 +129,7 @@ node QAChat :Chat: {
     }
 }
 
-
+#New node: helps with outputting learning type responses.
 node LearningChat :Chat: {
     has chat_type: ChatType = ChatType.LEARNING;
 
